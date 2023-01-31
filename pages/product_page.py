@@ -29,4 +29,3 @@ class ProductPage(BasePage):
     def can_go_to_login_page_from_product_page(self):
         assert self.is_element_present(*BasePageLocators.LOGIN_LINK), \
             "Login link is not presented"
-
